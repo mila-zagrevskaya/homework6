@@ -8,6 +8,6 @@ function exercise3(event){
 		} `
 	for(var elem of document.body.children){
 		elem.tagName === "SCRIPT" ? null : 
-			elem.className = "redBack"
+			elem.classList.add ("redBack")
 	}
 }
