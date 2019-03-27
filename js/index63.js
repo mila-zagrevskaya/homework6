@@ -4,10 +4,10 @@ function exercise3(event){
 
 	style.textContent = `
 		.redBack {
-		    background-color: red!important;
+		    background: red!important;
 		} `
 	for(var elem of document.body.children){
 		elem.tagName === "SCRIPT" ? null : 
-			elem.classList.add ("redBack")
+			elem.classList.add('redBack')
 	}
 }
